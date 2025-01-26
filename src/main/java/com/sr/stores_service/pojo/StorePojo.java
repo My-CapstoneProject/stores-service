@@ -17,8 +17,6 @@ public class StorePojo {
 	
 	private RegionPojo regionPojo;
 	
-	private UserPojo userPojo;
-	
 	
 
 }

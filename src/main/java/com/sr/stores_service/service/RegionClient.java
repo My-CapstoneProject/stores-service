@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.sr.stores_service.pojo.RegionPojo;
 
-//@FeignClient(name = "region-service", url = "http://region-service:8081/api")  // URL of the Department Service
+@FeignClient(name = "region-service", url = "http://localhost:9001/api")
 public interface RegionClient {
+	   @GetMapping("/regions/{regionId}")
+	   RegionPojo getRegionById(@PathVariable int regionId);
 
-    // Endpoint to fetch department details by department ID
-//    @GetMapping("/regions/{id}")
-//    RegionPojo getDepartmentById(@PathVariable("id") int regionId);
 }
 

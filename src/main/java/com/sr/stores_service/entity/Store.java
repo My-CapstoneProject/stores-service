@@ -21,11 +21,13 @@ public class Store {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="store_id")
 	private int storeId;
+	
 	@Column(name="store_name")
 	private String storeName;
 	
 	@Column(name="store_region_id")
 	private int storeRegionId;
+	
 	@Column(name="store_user_id")
 	private int storeUserId;
 	

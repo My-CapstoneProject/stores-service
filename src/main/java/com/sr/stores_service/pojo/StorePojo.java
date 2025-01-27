@@ -14,9 +14,4 @@ public class StorePojo {
 	private String storeName;
 	private int regionId;
 	private int userId;
-	
-	private RegionPojo regionPojo;
-	
-	
-
 }

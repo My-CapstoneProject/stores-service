@@ -31,5 +31,8 @@ public class Store {
 	@Column(name="store_user_id")
 	private int storeUserId;
 	
+	@Column(name="region_name")
+	private String regionName;
+	
 
 }

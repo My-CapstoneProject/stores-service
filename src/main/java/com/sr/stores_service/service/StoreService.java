@@ -36,5 +36,9 @@ public class StoreService {
 	public void deleteStore(int storeId) {
 		storeRepository.deleteById(storeId);
 	}
+	
+	public Optional<Store> getStoreById(int storeId) {
+        return storeRepository.findById(storeId);
+    }
 
 }

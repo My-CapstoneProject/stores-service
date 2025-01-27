@@ -25,9 +25,6 @@ public class Store {
 	@Column(name="store_name")
 	private String storeName;
 	
-	@Column(name="store_region_id")
-	private int storeRegionId;
-	
 	@Column(name="store_user_id")
 	private int storeUserId;
 	

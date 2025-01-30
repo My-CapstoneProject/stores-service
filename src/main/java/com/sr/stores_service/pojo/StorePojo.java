@@ -8,9 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class StorePojo {
-    private int storeId;         // Corresponds to store_id
-    private String storeName;    // Corresponds to store_name
-    private int storeRegionId;   // Corresponds to store_region_id
-    private int storeUserId;     // Corresponds to store_user_id
-    private String regionName;   // Corresponds to region_name
+    private int storeId;         
+    private String storeName;    
+    private int storeUserId;    
+    private String regionName;  
 }

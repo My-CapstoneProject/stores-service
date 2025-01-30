@@ -31,5 +31,14 @@ public class Store {
 	@Column(name="region_name")
 	private String regionName;
 	
+	@Column(name="store_description")
+	private String storeDescription;
+	
+	@Column(name="store_rating")
+	private int storeRating;
+	
+	@Column(name="store_address")
+	private String storeAddress;
+	
 
 }
